@@ -28,7 +28,6 @@ The challenge consists in developing an application that encrypts and decrypts t
 
 - The result should be displayed on the screen
 
-
 ## Extra Features
 
 - A button to copy the encrypted/decrypted text to the clipboard
