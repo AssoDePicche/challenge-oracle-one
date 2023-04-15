@@ -8,7 +8,7 @@
 
 4. Commit your changes: `git commit -m "feat: add feature"`
 
-5. Push to the feature banch: `git push origin
+5. Push to the feature branch: `git push origin
 feature/my-feature`
 
 6. Submit a pull request
