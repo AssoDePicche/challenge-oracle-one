@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <title>Challenge Oracle One</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Divirta-se trocando mensagens criptografadas com seus amigos e não deixe que descubram seus segredos.">
+  <link rel="shortcut icon" href="./resource/img/alura.svg" type="image/x-icon">
+  <link href="./src/styles/global.css" rel="stylesheet">
+  <script defer src="./src/scripts/index.js" type="module"></script>
+</head>
+
+<body>
+  <header class="header">
+    <a href="https://www.alura.com.br/" target="_blank" rel="noopener noreferrer" title="Ir para Alura Cursos Online.">
+      <img src="./resource/img/alura.svg" alt="Logo da Alura Cursos Online, a maior escola online de tecnologia do Brasil.">
+    </a>
+  </header>
+
+  <main>
+    <section>
+      <textarea class="message" id="message" cols="30" rows="10" placeholder="Digite seu texto" autofocus></textarea>
+  
+      <div class="typehint">
+        <span class="typehint__placeholder">Apenas letras minúsculas e sem acento.</span>
+      </div>
+  
+      <div class="button__container">
+        <button class="button button--dark" id="encrypt">Criptografar</button>
+  
+        <button class="button button--outlined" id="decrypt">Descriptografar</button>
+      </div>
+    </section>
+
+    <section>
+      <div class="output__container">
+        <div class="output--empty">
+          <img src="./resource/img/product-illustration.svg" alt="Ilustração de uma pessoa buscando por um diamante dentro do mar">
+  
+          <h3>Nenhuma mensagem encontrada</h3>
+    
+          <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+  
+        <div id="output"></div>
+  
+        <button class="button button--outlined" id="clipboard">Copiar</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="https://github.com/AssoDePicche" target="_blank" rel="noopener noreferrer" title="Clique para saber mais sobre o desenvolvedor.">
+      Desenvolvido por Samuel do Prado Rodrigues &copy; 2023
+    </a>
+  </footer>
+</body>
+
+</html>
