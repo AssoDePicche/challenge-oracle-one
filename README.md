@@ -14,7 +14,7 @@ The challenge consists in developing an application that encrypts and decrypts t
 
 - The letter "u" should be converted to "ufat"
 
-`E.g:` The word "cat" should be converted to "gaitober" and "gaitober" should be converted to "cat".
+`E.g:` The word "gato" should be converted to "gaitober" and "gaitober" should be converted to "gato".
 
 ## Requirements
 
