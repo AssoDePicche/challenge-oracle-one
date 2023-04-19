@@ -1,0 +1,1 @@
+.typehint{margin-bottom:var(--spacing-base)}.typehint__placeholder{color:var(--gray-400);font-family:var(--main-font-family);font-size:var(--font-size-xsmall);line-height:1.5;margin-left:24px;opacity:.8;position:relative}.typehint__placeholder::before{content:url(./../../../resource/img/typehint.svg);position:absolute;left:-24px}
