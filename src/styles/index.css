@@ -1,2 +1,11 @@
 @import url("./util/reset.min.css");
+@import url("./global.min.css");
 @import url("./util/colors.min.css");
+@import url("./util/fonts.min.css");
+@import url("./util/spacing.min.css");
+@import url("./components/header.min.css");
+@import url("./components/message.min.css");
+@import url("./components/output.min.css");
+@import url("./components/typehint.min.css");
+@import url("./components/button.min.css");
+@import url("./components/footer.min.css");
