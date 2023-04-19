@@ -1,0 +1,1 @@
+html{font-size:62.5%}body{background-color:var(--light-blue-100)}::-webkit-scrollbar{display:none}main{display:flex;justify-content:space-evenly;padding:var(--spacing-xlarge) var(--spacing-xxlarge)}@media screen and (max-width:1024px){main{flex-direction:column;gap:var(--spacing-xxlarge);justify-content:center}section{display:flex;flex-direction:column}}
