@@ -37,6 +37,16 @@ The challenge consists in developing an application that encrypts and decrypts t
 1. `src:` source code
 2. `tests:` automated tests
 
+## Dependencies
+
+- [Jest](https://jestjs.io/): a JavaScript Testing Framework
+
+## Running Tests
+
+```bash
+npm run test
+```
+
 ## Contributing
 
 To contribuit to this project [follow theses steps](./CONTRIBUTING.md).
@@ -48,6 +58,8 @@ To contribuit to this project [follow theses steps](./CONTRIBUTING.md).
 ```bash
 git clone git@github.com:AssoDePicche/challenge-oracle-one.git
 ```
+
+2. Open the file [index.html](./index.html) in your favorite browser
 
 ## License
 
